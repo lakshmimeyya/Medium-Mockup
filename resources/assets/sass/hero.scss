@@ -1,0 +1,63 @@
+.banner {
+    height: 400px;
+    margin-top: 50px;
+    background: #E8F3EC;
+    margin:auto;
+    margin-top: 40px;
+
+    .content {
+        float: left;
+        height: 100%;
+        width: 50%;
+        padding: 40px;
+
+        .heading {
+            color: $secondary-text-color;
+            font-weight: bold;
+            font-size: 42px;
+            line-height: 48px;
+            font-family: serif;
+            padding-bottom: 20px;
+        }
+
+        .paragraph {
+            padding-bottom: 35px;
+            font-size: 19px;
+            line-height: 24px;
+            font-family: $primary-font;
+
+        }
+
+        .get-started, .learn-more {
+            border-radius: 4px;
+            display: inline-block;
+            vertical-align: middle;
+            height: 38px;
+            line-height: 31px;
+            font-size: 14px;
+            padding: 2px 16px;
+            border: 1px solid #292929;
+            font-family: $primary-font;
+        }
+
+        .get-started {
+            background: #292929;
+            color: rgba(255, 255, 255, .97);
+            margin-right: 5px;
+        }
+        .learn-more {
+            color: #292929;
+            background-color: rgba(255, 255, 255, .97);
+        }
+
+    }
+    .image {
+        float: right;
+        height: 100%;
+        width: 50%;
+        background-image:url('https://cdn-images-1.medium.com/max/800/1*TckFXfkU_bg0aADPYR_t7Q.png');
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}

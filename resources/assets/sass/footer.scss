@@ -1,0 +1,14 @@
+footer {
+    margin-top: 30px;
+    text-align: left;
+    li {
+        display: inline-block;
+        padding: 10px;
+        font-family: $primary-font;
+        a {
+            text-decoration: none;
+            color: $primary-text-color;
+           padding: 5px;
+        }
+    }
+}

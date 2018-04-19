@@ -1,0 +1,27 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Global variables
+@import "variables.scss";
+
+// General styles
+@import "generalstyles.scss";
+
+// Header
+@import "header.scss";
+
+// Main
+@import "main.scss";
+
+//hero
+@import "hero.scss";
+
+// Footer
+@import "footer.scss";

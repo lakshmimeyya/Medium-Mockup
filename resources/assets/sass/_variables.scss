@@ -1,0 +1,137 @@
+
+// Body
+$body-bg: #f5f8fa;
+
+// Colors
+
+$primary-text-color: rgba(117,117,117,1);
+$secondary-text-color :  rgba(0,0,0,.84);
+$primary-button-hover-color: rgba(0,0,0,0.68);
+$primary-button-color :#03a87c;
+$secondary-button-color: rgba(117,117,117,1);
+
+// fonts
+$primary-font: 'Open Sans', sans-serif;
+
+$small-window: 320px;
+$medium-window: 820px;
+$large-window: 1200px;
+
+// Borders
+$laravel-border-color: darken($body-bg, 10%);
+$list-group-border: $laravel-border-color;
+$navbar-default-border: $laravel-border-color;
+$panel-default-border: $laravel-border-color;
+$panel-inner-border: $laravel-border-color;
+
+// Brands
+$brand-primary: #3097D1;
+$brand-info: #8eb4cb;
+$brand-success: #2ab27b;
+$brand-warning: #cbb956;
+$brand-danger: #bf5329;
+
+// Typography
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+$font-family-sans-serif: "Raleway", sans-serif;
+$font-size-base: 14px;
+$line-height-base: 1.6;
+$text-color: #636b6f;
+
+// Navbar
+$navbar-default-bg: #fff;
+
+// Buttons
+$btn-default-color: $text-color;
+
+// Inputs
+$input-border: lighten($text-color, 40%);
+$input-border-focus: lighten($brand-primary, 25%);
+$input-color-placeholder: lighten($text-color, 30%);
+
+// Panels
+$panel-default-heading-bg: #fff;
+
+//Mixins
+$types: padding margin;
+$list: top left bottom right;
+
+@each $type in $types {
+    @each $direction in $list {
+        @for $i from 0 through 40 {
+            $value: $i * 5;
+            .#{$type}-#{$direction}-#{$value} {
+                #{$type}-#{$direction}: #{$value}px;
+            }
+        }
+    }
+    @for $i from 0 through 40 {
+        $value: $i * 5;
+        .#{$type}-#{$value} {
+            #{$type}: #{$value}px;
+        }
+    }
+}
+
+$dimensions: height width;
+
+@each $dimension in $dimensions{
+    @for $i from 0 through 600 {
+        .#{$dimension}-#{$i} {
+            #{$dimension}: #{$i}px;
+        }
+    }
+}
+
+
+.font-1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.font-2 {
+    font-size: 20px;
+}
+
+.font-3 {
+    font-size: 18px;
+}
+
+.font-4 {
+    font-size: 14px;
+}
+
+.font-5 {
+    font-size: 12px;
+}
+
+.color-1 {
+    color: black;
+}
+
+.color-2 {
+    color: #4ca9e6;
+}
+
+.bg-color-1 {
+    background-color: #e6ecf0;
+}
+
+.bg-color-2 {
+    background-color: white;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+}
+.flex-3 {
+    flex: 3;
+}

@@ -1,0 +1,98 @@
+section{
+
+    padding-top: 50px;
+    font-family:$primary-font;
+
+    .wrapper {
+        display: flex;
+    }
+    .wrapper > div {
+        font-size: 4vh;
+        background-color: white;
+        margin: .1em;
+        padding: .3em;
+        border-radius: 3px;
+        flex: 1;
+    }
+
+
+
+    h3{
+        font-size:15px;
+        line-height: 20px;
+        color: $secondary-text-color;
+    }
+
+    .heading {
+        color: $secondary-text-color;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        font-family: serif;
+        padding-bottom: 20px;
+    }
+
+    .paragraph {
+        padding-bottom: 35px;
+        font-size: 19px;
+        line-height: 24px;
+        font-family: $primary-font;
+
+    }
+
+    .author{
+        padding-bottom: 35px;
+        font-size: 15px;
+        line-height: 20px;
+        font-family: $primary-font;
+
+    }
+
+    .heading1{
+        color: $secondary-text-color;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        font-family: serif;
+        padding-bottom: 20px;
+    }
+
+    .paragraph1{
+        padding-bottom: 35px;
+        font-size: 15px;
+        line-height: 20px;
+        font-family: $primary-font;
+
+    }
+
+    .author1{
+        padding-bottom: 35px;
+        font-size: 10px;
+        line-height: 15px;
+        font-family: $primary-font;
+
+    }
+    .image1 img {
+        width: 350px;
+        height: 100px;
+    }
+
+    .first {
+        height: 400px;
+        width: 400px;
+    }
+
+
+    .second-column {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .image img {
+        width: 450px;
+        height: 350px;
+    }
+
+
+}
